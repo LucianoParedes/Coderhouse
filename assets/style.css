@@ -9,7 +9,7 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #e58714;
+  background-color:#602e07;
 }
 /* nav y titulo */
 .header {
@@ -22,7 +22,7 @@ body {
   display: grid;
 }
 #titulo {
-  margin: 0px;
+  margin: 10px;
   padding: 0px;
   font-size: 45px;
   font-weight: 800;
@@ -33,6 +33,12 @@ body {
 }
 .text-1 {
   position: relative;
+  display: flex;
+  justify-content: center;
+  top: 400px;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 .menu {
@@ -61,7 +67,7 @@ body {
 /* texto introductor */
 
 .intro {
-  margin-top: 100px;
+  margin-top: 30px;
   font-size: 25px;
   text-align: center;
   color: white;
@@ -74,9 +80,11 @@ body {
 /* seccion */
 
 .tpdc {
-  text-align: left;
+  margin-top: 100px;
   font-size: 40px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 .section {
   color: white;
@@ -143,40 +151,4 @@ body {
   right: 0px;
   display: inline;
   padding: 130px;
-}
-
-/* footer */
-
-.footerizq {
-  position: absolute;
-  color: grey;
-  text-align: left;
-  display: inline;
-  text-transform: uppercase;
-}
-
-.footerder {
-  color: grey;
-  text-align: right;
-  text-transform: uppercase;
-}
-
-.footerlogo {
-  text-align: right;
-}
-
-.facebook1 {
-  width: 30px;
-  height: 30px;
-}
-.whatsapp1 {
-  width: 30px;
-  height: 30px;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }

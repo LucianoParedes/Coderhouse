@@ -5,27 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos</title>
-    <link rel="stylesheet" href="./assets/style.css" />
     <link rel="shortcut icon" href="./fotos/favicon.png" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
     <!-- navegador y header -->
     <header class="boxdif">
-      <h1 id="titulo">Cafe JLZ</h1>
-      <div>
-        <nav class="menu">
+      <h1 class="title-pags">coffee JLZ</h1>
+      <div class="menu container">
+        <a href="./assets/fotos/LOGOTIPO-WURTS-COFFE-PNG.png" class="logo"></a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <img src="./assets/fotos/menu.png" class="menu-icono" alt="menu" />
+        </label>
+        <nav class="navbar">
           <ul>
-            <li><a href="./index.html" class="menu">Inicio</a></li>
+            <li><a href="./index.html">Inicio</a></li>
             <li>
-              <a href="./Nosotros.html" class="menu">Nosotros</a>
+              <a href="./Nosotros.html">Nosotros</a>
             </li>
             <li>
-              <a href="./Productos.html" class="menu">Productos</a>
+              <a href="./Productos.html">Productos</a>
             </li>
             <li>
-              <a href="./Contacto.html" class="menu">Contacto</a>
+              <a href="./Contacto.html">Contacto</a>
             </li>
-            <li><a href="./Ofertas.html" class="menu">Ofertas</a></li>
+            <li><a href="./Ofertas.html">Ofertas</a></li>
           </ul>
         </nav>
       </div>
@@ -51,25 +57,14 @@
         </ul>
       </div>
     </section>
-    <footer>
-      <div class="footerizq">
-        <p><strong>©JLZ - 2023 - TODOS LOS DERECHOS RESERVADOS </strong>></p>
+    <!-- footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">JLZcoffee.com</a>
       </div>
-      <div class="footerder">
-        <p><strong>TERMINOS Y CONDICIONES | CONTACTOS</strong></p>
-      </div>
-      <div class="footerlogo">
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"
-          class="facebook1"
-          alt="logofacebook"
-        />
-        <img
-          src="./assets/fotos/whatsapplogo.png"
-          class="whatsapp1"
-          alt="whatsapplogo"
-        />
-      </div>
+      <!-- Copyright -->
     </footer>
   </body>
 </html>

@@ -141,6 +141,8 @@ body {
   margin-top: 0px;
   margin-bottom: 30px;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* titulo en otras paginas */
@@ -162,9 +164,11 @@ body {
 
 .caja1 {
   width: 100%;
-  height: 800px;
+  height: auto;
   background-color: #eaca12;
   margin-bottom: 0px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* contacto */
@@ -185,9 +189,11 @@ body {
 .cajaprod {
   text-align: center;
   width: 100%;
-  height: 720px;
+  height: auto;
   background-color: white;
   margin-bottom: 30px;
+  display: flex;
+  text-align: center;
 }
 
 /* ofertas */

@@ -169,23 +169,26 @@ body {
   background-color: #eaca12;
   margin-bottom: 0px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 /* contacto */
 .contacto-1 {
-  padding-top: 100px;
-  margin-left: 500px;
-  margin-bottom: 150px;
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
 }
 .contacto-2 {
   width: 1000px;
-  height: 700px;
+  height: 731px;
+  margin: 30px;
   background-color: #eaca12;
   text-align: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  border-style: solid;
+  border-color: black;
 }
 
 /* productos */
